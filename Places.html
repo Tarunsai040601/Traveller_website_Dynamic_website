@@ -87,7 +87,7 @@
           buttonsDiv.className = "card-buttons";
           buttonsDiv.append(viewButton);
 
-          card.append(image, title, location, cost, buttonsDiv);
+          card.append(image, title, location,  buttonsDiv);
           container.appendChild(card);
         });
       }
@@ -109,10 +109,10 @@
         image.alt = place.title;
 
         const title = document.createElement("h1");
-        title.textContent = place.title;
+        title.textContent = place.place_name;
 
-        const cost = document.createElement("h3");
-        cost.innerHTML = place.cost;
+        // const cost = document.createElement("h3");
+        // cost.innerHTML = place.cost;
 
         const description = document.createElement("p");
         description.innerHTML =
@@ -133,7 +133,7 @@
           heading,
           image,
           title,
-          cost,
+          
           description,
           bookButton,
           backButton
@@ -151,7 +151,7 @@
         renderCards(filtered);
       }
 
-      fetch("https://67f0dd25c733555e24ab6ba1.mockapi.io/places")
+      fetch("https://6870ca4b7ca4d06b34b80e17.mockapi.io/places")
         .then((res) => res.json())
         .then((data) => {
           allPlaces = data;
