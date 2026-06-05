@@ -1,7 +1,7 @@
 # 🌍 Tour_Planner Website
 A responsive web application that simplifies the process of planning, organizing, and customizing travel experiences. Designed for both solo travelers and groups, it centralizes key features like destination suggestions, custom itineraries, hotel recommendations, maps integration, and budget tracking—all within an intuitive and user-friendly interface.
 
-🔗 Live Website: https://madhari-tarunsai.github.io/Traveller_website_Dynamic_website/
+🔗 Live Website:[ https://tarunsai040601.github.io/Traveller_website_Dynamic_website/
 
 
 🛠️ Tools & Technologies Used
